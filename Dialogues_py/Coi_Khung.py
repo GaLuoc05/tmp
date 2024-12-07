@@ -15,6 +15,6 @@ Còi Khùng: "Nhóc không nên đi lên đó đâu! Trên đó đỏ lắm!"
 
 ~ Talk_2
 Còi Khùng vẫn nằm giữa đường, đúng cái vị trí mà hôm qua hắn nằm, không chệch một li.
-Còi Khùng: Kiên trì không lại tao đâu nhóc. 
-- Bạn: Tránh ra mau! 
+Còi Khùng: "Kiên trì không lại tao đâu nhóc."
+- Bạn: "Tránh ra mau!"
 Còi Khùng thở dài rồi đứng dậy. => END
