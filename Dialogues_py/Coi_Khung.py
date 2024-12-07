@@ -4,7 +4,7 @@ Còi Khùng: Nhóc không nên đi lên đó đâu! Trên đó đỏ lắm!
 - Bạn: Tại sao? if [Talker.att["intelligent"] > 3]
     Còi Khùng: [Khua tay] Biết vậy là được!
 - Bạn: Màu đỏ? [if Talker.att["intelligent"] > 6]
-    Còi Khùng: [Gật đầu] ĐỎ thẫm! Nhìn sợ bỏ xừ...
+	Còi Khùng: [Gật đầu] ĐỎ thẫm! Nhìn sợ bỏ xừ...
 - Bạn: Đỏ! Máu? Đỏ? [if Talker.att["intelligent"] < 3]
     Còi Khùng nhìn bạn chăm chú, như nhìn một hình bóng xưa. 
     Còi Khùng: [Cười toáng lên] Nhóc cũng thấy à? Đừng dại mà lên đó!
