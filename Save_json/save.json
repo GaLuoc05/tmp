@@ -1,0 +1,35 @@
+{
+	"world_lore" : 
+	[
+		"tmp",
+		"tmp"
+	],
+	"local_lore" :
+	[
+		"tmp",
+		"tmp"
+	],
+	"NPC" : 
+	{
+		"id" : 
+		{
+			"name" : "tmp",
+			"stats" : 
+			{
+				"hp" : 100,
+			},
+			"attribute" : 
+			{
+				"perception" : 
+				{
+					"sum" : 10,
+					"sight" : 2,
+					"hearing" : 2,
+					"smell" : 2, 
+					"taste" : 2,
+					"touch" : 2
+				}
+			}
+		}
+	}
+}
