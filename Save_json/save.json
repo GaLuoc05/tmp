@@ -2,65 +2,115 @@
 	"world_lore" : [
 		"tmp",
 		"tmp"
-	],
-	"local_lore" : [
-		"tmp",
-		"tmp"
-	],
-	"NPCs" : {
-		"NPC_id" : {
-			"name" : "tmp",
-			"lore" : [
-				"tmp",
-				"tmp",
+		],
+		"local_lore" : [
+			"tmp",
+			"tmp"
 			],
-			"backstory" : {
-				"origin" : "Where did they come from? What was their childhood like? What significant events shaped their worldview?",
-				"past_experiences" : "What traumas, triumphs, or relationships have influenced their present self?",
-				"hidden_depths" : "Give them secrets, regrets, or unresolved issues that add complexity and intrigue.",
-			},
-			"features" : {
-				"wants" : [
-					"tmp",
-				],
-				"needs" : [
-					"tmp",
-				],
-				"internal_conflicts" : [
-					"tmp",
-				],
-				"external_conflicts" : [
-					"tmp",
-				],
-				"strength" : [
-					"tmp",
-				],
-				"weakness" : [],
-				"motivation" : [
-					"Why do they do what they do? What drives them?"
-				],
-				"habits" : [],
-			},
-			"arcs" : [],
-			"stats" : {
-				"hp" : 100,
-			},
-			"effects" : [],
-			"attribute" : {
-				"perception" : {
-					"sum" : 10,
-					"sight" : 2,
-					"hearing" : 2,
-					"smell" : 2, 
-					"taste" : 2,
-					"touch" : 2,
+			"NPCs" : {
+				"NPC_id" : {
+					"name" : "tmp",
+					"lore" : [
+						"tmp",
+						"tmp",
+						],
+						"appearance" : [],
+						"backstory" : {
+							"origin" : "Where did they come from? What was their childhood like? What significant events shaped their worldview?",
+							"past_experiences" : "What traumas, triumphs, or relationships have influenced their present self?",
+							"hidden_depths" : "Give them secrets, regrets, or unresolved issues that add complexity and intrigue.",
+						},
+						"features" : {
+							"wants" : [
+								"tmp",
+								],
+								"needs" : [
+									"tmp",
+									],
+									"internal_conflicts" : [
+										"tmp",
+										],
+										"external_conflicts" : [
+											"tmp",
+											],
+											"strength" : [
+												"tmp",
+												],
+												"weakness" : [],
+												"motivation" : [
+													"Why do they do what they do? What drives them?"
+													],
+													"habits" : [],
+						},
+						"arcs" : [],
+						"stats" : {
+							"hp" : 100,
+						},
+						"effects" : [],
+						"attribute" : {
+							"perception" : {
+								"sum" : 10,
+								"sight" : 2,
+								"hearing" : 2,
+								"smell" : 2, 
+								"taste" : 2,
+								"touch" : 2,
+							},
+						},
+				},
+				"Coi_Khung" : {
+					"name" : "tmp",
+					"lore" : [
+						"tmp",
+						"tmp",
+						],
+						"backstory" : {
+							"origin" : "Where did they come from? What was their childhood like? What significant events shaped their worldview?",
+							"past_experiences" : "What traumas, triumphs, or relationships have influenced their present self?",
+							"hidden_depths" : "Give them secrets, regrets, or unresolved issues that add complexity and intrigue.",
+						},
+						"features" : {
+							"wants" : [
+								"tmp",
+								],
+								"needs" : [
+									"tmp",
+									],
+									"internal_conflicts" : [
+										"tmp",
+										],
+										"external_conflicts" : [
+											"tmp",
+											],
+											"strength" : [
+												"tmp",
+												],
+												"weakness" : [],
+												"motivation" : [
+													"Why do they do what they do? What drives them?"
+													],
+													"habits" : [],
+						},
+						"arcs" : [],
+						"stats" : {
+							"hp" : 100,
+						},
+						"effects" : [],
+						"attribute" : {
+							"perception" : {
+								"sum" : 10,
+								"sight" : 2,
+								"hearing" : 2,
+								"smell" : 2, 
+								"taste" : 2,
+								"touch" : 2,
+							},
+						},
 				},
 			},
-		},
-	},
-	"player" : {
-		"stats" : {
-			"hp" : 100,
-		}
-	},
+			"player" : {
+				"stats" : {
+					"hp" : 100,
+				}
+			},
 }
