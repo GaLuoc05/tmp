@@ -91,6 +91,12 @@
 					"couragous": 2,
 					"loyal": 2
 				}
+			},
+			"player_id_att": {
+
+			},
+			"relationships": {
+				"character_id": 50
 			}
 		}
 	},
