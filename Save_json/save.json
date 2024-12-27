@@ -9,12 +9,13 @@
 	],
 	"NPCs": {
 		"NPC_id": {
-			"name": "tmp",
+			"name": [false, "tmp"],
 			"lore": [
+				[],
 				"tmp",
 				"tmp"
 			],
-			"appearance": [],
+			"appearance": [[], "tmp"],
 			"backstory": {
 				"origin": "Where did they come from? What was their childhood like? What significant events shaped their worldview?",
 				"past_experiences": "What traumas, triumphs, or relationships have influenced their present self?",
@@ -100,16 +101,18 @@
 			}
 		},
 		"Y_Lao": {
-			"name": "Y Lão",
+			"name": [false, "Y Lão"],
 			"lore": [
+				[],
 				"Sống được trăm năm là điều viển vông mà ai ai cũng mơ ước. Y Lão đã gần đạt tới được điều đó, ông năm nay đã gần 80 tuổi, có người đồn ông đã hiến tế con cháu mình để sống lâu như vậy. Có người lại cho rằng ông là một y sĩ và chính nhờ kiến thức dồi dào đó mà ông sẽ sống tới trăm tuổi. Nhưng mọi thứ cũng chỉ là đồn đoán mà thôi.",
 				"Có vài người cho rằng Y Lão xưa là người của làng, rồi ông rời đi để học dược thuật. Tuy nhiên nhiều người lại phủ nhận câu chuyện trên."
 			],
-			"appearance": [
-				"Một lão già gầy gò nhưng nom khỏe mạnh.",
-				"Làn da lão nhăn nheo bởi sự dày vò của tuổi tác.",
-				"Ánh mắt lão đục ngầu, như thể xung quanh chỉ toàn là bóng tối."
-			],
+			"appearance": {
+				"achieved": [],
+				"overall": "Một lão già gầy gò nhưng nom khỏe mạnh.",
+				"skin": "Làn da lão nhăn nheo bởi sự dày vò của tuổi tác.",
+				"eyes": "Ánh mắt lão đục ngầu, như thể xung quanh chỉ toàn là bóng tối."
+			},
 			"backstory": {
 				"origin": "*Y Lão thực ra là một người trong làng và chưa bao giờ rời làng cả. Ông gặp được một người kì lạ trên núi Đỏ, và hắn đã dạy ông rất nhiều thứ. Một lần thử nghiệm loại thuốc mới, diện ngoại ông thay đổi hoàn toàn nên không một ai trong làng còn nhận ra ông. *Ông có một tuổi thơ êm ấm với gia đình. *Cho tới một ngày cha ông gặp nạn và không ai trong làng chịu đi xuống núi để tìm người giúp cả, lúc đó ông trở nên căm thù ngôi làng. Sau đó mẹ ông bị bệnh nên ông cùng mẹ ở ẩn nhằm tìm ra phương thuốc",
 				"past_experiences": "Ông giữ sự căm thù với ngôi làng và ở ẩn trong suốt những năm học nghề cùng tên kì lạ trên núi Đỏ. Tới khi gặp người con gái nọ từ ngôi làng. Cô chăm sóc người mẹ bệnh tật của ông và mang niềm vui tới đời ông. Tuy nhiên mẹ ông mất và căn bệnh lây sang người con gái ấy. Khi biết căn bệnh đó lây lan, trưởng làng đã quyết định hiến tế tất cả những người phụ nữ bị bệnh. Y Lão tiếp tục ở ẩn trên núi tới khi chữa hẳn được căn bệnh và ông đã thực hiện mong ước của người con gái năm ấy, giúp cho ngôi làng không ai còn bị dày vò bởi căn bệnh.",
@@ -215,7 +218,50 @@
 				"stress": 20,
 				"hungry": 20,
 				"smell": 10
+			},
+			"att": {
+				"perception": {
+					"sum": 10,
+					"sight": 2,
+					"hearing": 2,
+					"smell": 2,
+					"taste": 2,
+					"touch": 2
+				},
+				"iq": {
+					"sum": 10,
+					"science": 2,
+					"military": 2,
+					"language": 2,
+					"society": 2,
+					"art": 2
+				},
+				"bmi": {
+					"sum": 10,
+					"strength": 2,
+					"agility": 2,
+					"vestibular": 2,
+					"dexterity": 2,
+					"vitality": 2
+				},
+				"eq": {
+					"sum": 10,
+					"friendly": 2,
+					"empathetic": 2,
+					"sincere": 2,
+					"humble": 2,
+					"humorous": 2
+				},
+				"wpw": {
+					"sum": 10,
+					"ambitious": 2,
+					"honorable": 2,
+					"persistent": 2,
+					"courageous": 2,
+					"loyal": 2
+				}
 			}
+			
 		}
 	},
 	"weapons": {
