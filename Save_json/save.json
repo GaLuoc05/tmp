@@ -50,7 +50,7 @@
 				"hungry": 20
 			},
 			"effects": [],
-			"attribute": {
+			"att": {
 				"perception": {
 					"sum": 10,
 					"sight": 2,
@@ -85,10 +85,10 @@
 				},
 				"wpw": {
 					"sum": 10,
-					"ambitous": 2,
+					"ambitious": 2,
 					"honorable": 2,
 					"persistent": 2,
-					"couragous": 2,
+					"courageous": 2,
 					"loyal": 2
 				}
 			},
@@ -98,14 +98,143 @@
 			"relationships": {
 				"character_id": 50
 			}
+		},
+		"Y_Lao": {
+			"name": "Y Lão",
+			"lore": [
+				"Sống được trăm năm là điều viển vông mà ai ai cũng mơ ước. Y Lão đã gần đạt tới được điều đó, ông năm nay đã gần 80 tuổi, có người đồn ông đã hiến tế con cháu mình để sống lâu như vậy. Có người lại cho rằng ông là một y sĩ và chính nhờ kiến thức dồi dào đó mà ông sẽ sống tới trăm tuổi. Nhưng mọi thứ cũng chỉ là đồn đoán mà thôi.",
+				"Có vài người cho rằng Y Lão xưa là người của làng, rồi ông rời đi để học dược thuật. Tuy nhiên nhiều người lại phủ nhận câu chuyện trên."
+			],
+			"appearance": [
+				"Một lão già gầy gò nhưng nom khỏe mạnh.",
+				"Làn da lão nhăn nheo bởi sự dày vò của tuổi tác.",
+				"Ánh mắt lão đục ngầu, như thể xung quanh chỉ toàn là bóng tối."
+			],
+			"backstory": {
+				"origin": "*Y Lão thực ra là một người trong làng và chưa bao giờ rời làng cả. Ông gặp được một người kì lạ trên núi Đỏ, và hắn đã dạy ông rất nhiều thứ. Một lần thử nghiệm loại thuốc mới, diện ngoại ông thay đổi hoàn toàn nên không một ai trong làng còn nhận ra ông. *Ông có một tuổi thơ êm ấm với gia đình. *Cho tới một ngày cha ông gặp nạn và không ai trong làng chịu đi xuống núi để tìm người giúp cả, lúc đó ông trở nên căm thù ngôi làng. Sau đó mẹ ông bị bệnh nên ông cùng mẹ ở ẩn nhằm tìm ra phương thuốc",
+				"past_experiences": "Ông giữ sự căm thù với ngôi làng và ở ẩn trong suốt những năm học nghề cùng tên kì lạ trên núi Đỏ. Tới khi gặp người con gái nọ từ ngôi làng. Cô chăm sóc người mẹ bệnh tật của ông và mang niềm vui tới đời ông. Tuy nhiên mẹ ông mất và căn bệnh lây sang người con gái ấy. Khi biết căn bệnh đó lây lan, trưởng làng đã quyết định hiến tế tất cả những người phụ nữ bị bệnh. Y Lão tiếp tục ở ẩn trên núi tới khi chữa hẳn được căn bệnh và ông đã thực hiện mong ước của người con gái năm ấy, giúp cho ngôi làng không ai còn bị dày vò bởi căn bệnh.",
+				"hidden_depths": "Give them secrets, regrets, or unresolved issues that add complexity and intrigue."
+			},
+			"features": {
+				"wants": [
+					"Thực hiện lời hứa với người ông yêu dù bản thân không muốn."
+				],
+				"needs": [
+					"Tha thứ cho ngôi làng.",
+					"Quên đi người đã khuất."
+				],
+				"internal_conflicts": [
+					"Không thể quên được người con gái ấy.",
+					"Không thể tha thứ cho ngôi làng.",
+					"Không thể tha thứ cho bản thân vì không cứu được mẹ và người mình yêu."
+				],
+				"external_conflicts": [
+					"thù hằn với ngôi làng và người dân trong làng"
+				],
+				"strength": [
+					"Giỏi y.",
+					"Khéo léo.",
+					"Rất văn chương."
+				],
+				"weakness": [
+					"Quá tỉ mỉ.",
+					"Cố chấp.",
+					"Quá nhớ dai."
+				],
+				"motivation": [
+					"Mong ước của người con gái năm xưa."
+				],
+				"habits": [
+					"Đọc sách.",
+					"Làm thơ.",
+					"Nấu ăn.",
+					"Chế dược."
+				]
+			},
+			"arcs": [],
+			"stats": {
+				"hp": 110,
+				"stamina": 110,
+				"stress": 50,
+				"hungry": 20
+			},
+			"effects": [],
+			"att": {
+				"perception": {
+					"sum": 20,
+					"sight": 3,
+					"hearing": 1,
+					"smell": 7,
+					"taste": 6,
+					"touch": 3
+				},
+				"iq": {
+					"sum": 35,
+					"science": 15,
+					"military": 3,
+					"language": 5,
+					"society": 5,
+					"art": 7
+				},
+				"bmi": {
+					"sum": 16,
+					"strength": 2,
+					"agility": 3,
+					"vestibular": 2,
+					"dexterity": 8,
+					"vitality": 1
+				},
+				"eq": {
+					"sum": 20,
+					"friendly": 2,
+					"empathetic": 7,
+					"sincere": 3,
+					"humble": 6,
+					"humorous": 2
+				},
+				"wpw": {
+					"sum": 20,
+					"ambitious": 4,
+					"honorable": 3,
+					"persistent": 6,
+					"courageous": 5,
+					"loyal": 2
+				}
+			},
+			"player_id_att": {},
+			"relationships": {
+				"character_id": 50
+			}
 		}
 	},
-	"player": {
-		"stats": {
-			"hp": 100,
-			"stamina": 100,
-			"stress": 20,
-			"hungry": 20
+	"players": {
+		"player_id": {
+			"stats": {
+				"hp": 100,
+				"stamina": 100,
+				"stress": 20,
+				"hungry": 20,
+				"smell": 10
+			}
+		}
+	},
+	"weapons": {
+		"wooden_stick": {
+			"durability": 10,
+			"critical_rate": 0.05,
+			"materials": null,
+			"effects": {
+				"bruise": [0, 100]
+			},
+			"base_damage":{
+				"thrust": 2,
+				"slash": 1,
+				"impact": 1
+			},
+			"require_att": {
+				"strength": {"require": 2, "weight": 0.1},
+				"agility": {"require": 2, "weight": 0.1}
+			}
 		}
 	}
 }
