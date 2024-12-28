@@ -9,7 +9,7 @@
 	],
 	"NPCs": {
 		"NPC_id": {
-			"name": [false, "tmp"],
+			"name": ["???", "tmp"],
 			"lore": [
 				[],
 				"tmp",
@@ -101,7 +101,7 @@
 			}
 		},
 		"Y_Lao": {
-			"name": [false, "Y Lão"],
+			"name": ["???", "Y Lão"],
 			"lore": [
 				[],
 				"Sống được trăm năm là điều viển vông mà ai ai cũng mơ ước. Y Lão đã gần đạt tới được điều đó, ông năm nay đã gần 80 tuổi, có người đồn ông đã hiến tế con cháu mình để sống lâu như vậy. Có người lại cho rằng ông là một y sĩ và chính nhờ kiến thức dồi dào đó mà ông sẽ sống tới trăm tuổi. Nhưng mọi thứ cũng chỉ là đồn đoán mà thôi.",
