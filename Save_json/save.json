@@ -1,7 +1,7 @@
 {
 	"world_lore": [
 		"Ngô Quyền mất ngày 18 tháng 1 năm Giáp Thìn (14 tháng 2 năm 944), hưởng dương 47 tuổi; trước khi chết ông di chúc cho Dương Tam Kha phò tá con của mình là Ngô Xương Ngập. Ông không có miếu hiệu và thụy hiệu, sử sách xưa nay chỉ gọi ông là Tiền Ngô Vương. Sách Thiền Uyển tập anh, phần truyện Quốc sư Khuông Việt có nhắc Ngô Thuận Đế.",
-		"Dương Tam Kha cướp ngôi cháu, tự lập mình làm vua, xưng là Dương Bình Vương, lấy Ngô Xương Văn, con thứ hai của Ngô Quyền làm con nuôi. Ngô Xương Văn sau dẫn quân quay lại lật đổ Dương Tam Kha. Năm 950, Ngô Xương Văn tự xưng làm Nam Tấn Vương, đóng đô ở Cổ Loa. Ngô Xương Văn cho người đón anh trai Ngô Xương Ngập đang trốn ở Nam Sách trở về. Ngô Xương Ngập cũng làm vua, tự xưng là Thiên Sách Vương (951–954). Từ năm 951 đến 956, lần lượt các thế lực họ Đinh, họ Dương và hoàng tộc nhà Ngô cát cứ, chống đối với triều đình Cổ Loa, mở đầu cho loạn 12 sứ quân.",
+		"Dương Tam Kha cướp ngôi cháu, tự lập mình làm vua, xưng là Dương Bình Vương, lấy Ngô Xương Văn, con thứ hai của Ngô Quyền làm con nuôi. Ngô Xương Văn sau dẫn quân quay lại lật đổ Dương Tam Kha. Năm 950, Ngô Xương Văn tự xưng làm Nam Tấn Vương, đóng đô ở Cổ Loa. Ngô Xương Văn cho người đón anh trai Ngô Xương Ngập đang trốn ở Nam Sách trở về. Ngô Xương Ngập cũng làm vua, tự xưng là Thiên Sách Vương (951–954). Từ năm 951 đến 956, lần lượt các thế lực họ Đinh, họ Dương và hoàng tộc nhà Ngô cát cứ, chống đối với triều đình Cổ Loa, mở đầu cho loạn 12 sứ quân."
 	],
 	"local_lore": [
 		"tmp",
@@ -114,7 +114,8 @@
 				"achieved": [],
 				"overall": "Một lão già gầy gò nhưng nom khỏe mạnh.",
 				"skin": "Làn da lão nhăn nheo bởi sự dày vò của tuổi tác.",
-				"eyes": "Ánh mắt lão đục ngầu, như thể xung quanh chỉ toàn là bóng tối."
+				"eyes": "Ánh mắt lão đục ngầu, như thể xung quanh chỉ toàn là bóng tối.",
+				"hair": "Trên vài chỏm tóc li ti màu trắng tinh, ông đeo một búi tóc màu muối tiêu. Búi tóc như tổ gà dính phân, nhìn qua là biết tóc giả."
 			},
 			"backstory": {
 				"origin": "*Y Lão thực ra là một người trong làng và chưa bao giờ rời làng cả. Ông gặp được một người kì lạ trên núi Đỏ, và hắn đã dạy ông rất nhiều thứ. Một lần thử nghiệm loại thuốc mới, diện ngoại ông thay đổi hoàn toàn nên không một ai trong làng còn nhận ra ông. *Ông có một tuổi thơ êm ấm với gia đình. *Cho tới một ngày cha ông gặp nạn và không ai trong làng chịu đi xuống núi để tìm người giúp cả, lúc đó ông trở nên căm thù ngôi làng. Sau đó mẹ ông bị bệnh nên ông cùng mẹ ở ẩn nhằm tìm ra phương thuốc",
@@ -218,7 +219,7 @@
 				[],
 				"Không một người nào biết Còi là con của ai, thằng bé bị bỏ lại trước của nhà của trưởng làng kể từ lúc lọt lòng.",
 				"Thằng bé sau đó được xxx nhận nuôi, nhưng ông qua đời sau đó không lâu.",
-				"Sau đó con xxx vẫn giữ thằng bé lại làm culi trong nhà."
+				"Sau đó con xxx vẫn giữ thằng bé lại làm cu li trong nhà."
 			],
 			"appearance": {
 				"achieved": [],
@@ -232,25 +233,35 @@
 			},
 			"features": {
 				"wants": [
-					"tmp"
+					"con gái chủ nhà"
 				],
 				"needs": [
-					"tmp"
+					"tình thương"
 				],
 				"internal_conflicts": [
-					"tmp"
+					"nghe theo bản thân hay níu giữ lại một niềm tin mù quáng về thứ tình yêu không có thật?"
 				],
 				"external_conflicts": [
-					"tmp"
+					"trung thành với chủ nhà hay đi theo yyy?"
 				],
 				"strength": [
-					"tmp"
+					"Khỏe",
+					"Giỏi võ tay đôi"
 				],
-				"weakness": [],
+				"weakness": [
+					"Đầu óc bất thường",
+					"dễ bị lợi dụng",
+					"Sợ gậy??"
+				],
 				"motivation": [
 					"Why do they do what they do? What drives them?"
 				],
-				"habits": []
+				"habits": [
+					"Lăn lóc",
+					"Bắt nạt đám nhóc bé tuổi hơn",
+					"Vẽ tranh trên đất",
+					"Hát dị đồng ca"
+				]
 			},
 			"arcs": [],
 			"stats": {
@@ -308,10 +319,11 @@
 			"relationships": {
 				"character_id": 50
 			}
-		},
+		}
 	},
 	"players": {
 		"player_id": {
+			"gender": "male/female",
 			"stats": {
 				"hp": 100,
 				"stamina": 100,
@@ -361,7 +373,6 @@
 					"loyal": 2
 				}
 			}
-			
 		}
 	},
 	"weapons": {
