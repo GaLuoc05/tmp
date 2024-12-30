@@ -11,7 +11,7 @@ if player.att["perception"]["sight"] > 2:
 	Ông lão đang nấu một món[if player.att["iq"]["science"] > 2] canh thịt với rau, bổ thân[else] canh gì đó[/if].
 if player.["perception"]["smell"] > 2:
 	Mùi hương[if player.att["perception"]["sight"] == 1] của một món ăn gì đó[/if] lan khắp phòng. [if player.att["iq"]["science"] > 2] Mùi của thịt lợn, dược thảo. 
-	player.attMax()
+	player.calculate_att_max()
 	if player.att_max == "perception": Mùi hương không thơm, nhưng rất dễ chịu.[if player.stats["hungry"] < 20] Từng làn hơi vào phổi bạn càng làm cho chiếc bụng đói réo to hơn.[/if][if player.["stats"]["hp"] < 20] Mùi thức ăn giúp tim bạn dịu đi, bớt đi những cảm giác nhức nhói mỗi lần đập.
 	if player.att_max == "eq": Mùi hương tựa cánh tay ai đó vỗ về bạn[if player.stats["hungry"] < 20], xoa dịu chiếc bụng đói meo [if player.["stats"]["hp"] > 20]của bạn[/if][/if][if player.["stats"]["hp"] < 20], sưởi ấm con tim lạnh lẽo của bạn[/if].
 	if player.att_max == "wpw": Bạn thèm! Bạn muốn ăn đống thức ăn đó, ăn tới hết thì thôi.
