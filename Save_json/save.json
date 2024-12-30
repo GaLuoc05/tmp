@@ -15,7 +15,10 @@
 				"tmp",
 				"tmp"
 			],
-			"appearance": [[], "tmp"],
+			"appearance": {
+				"achieved": [],
+				"skin": "tmp"
+			},
 			"backstory": {
 				"origin": "Where did they come from? What was their childhood like? What significant events shaped their worldview?",
 				"past_experiences": "What traumas, triumphs, or relationships have influenced their present self?",
@@ -208,7 +211,104 @@
 			"relationships": {
 				"character_id": 50
 			}
-		}
+		},
+		"Coi_Khung": {
+			"name": ["???", "Còi Khùng"],
+			"lore": [
+				[],
+				"Không một người nào biết Còi là con của ai, thằng bé bị bỏ lại trước của nhà của trưởng làng kể từ lúc lọt lòng.",
+				"Thằng bé sau đó được xxx nhận nuôi, nhưng ông qua đời sau đó không lâu.",
+				"Sau đó con xxx vẫn giữ thằng bé lại làm culi trong nhà."
+			],
+			"appearance": {
+				"achieved": [],
+				"skin": "Làn da nó đen ngăm mà đầy sẹo với ghẻ lở.",
+				"eyes": "Đôi mắt nó đờ đần, hay nhìn chằm chằm vô mọi thứ như đang chẳng nhìn vào điều gì."
+			},
+			"backstory": {
+				"origin": "Còi là con rơi con rớt được nhận nuôi bởi xxx, không ai biết cha mẹ nó là ai. Tuổi thơ nó bị con của xxx hành hạ và bị con của hắn đày đoạ. Thằng A dùng cục đá đập mạnh vào đầu nó, từ đó noa cứ điên điên khùng khùng.",
+				"past_experiences": "What traumas, triumphs, or relationships have influenced their present self?",
+				"hidden_depths": "Give them secrets, regrets, or unresolved issues that add complexity and intrigue."
+			},
+			"features": {
+				"wants": [
+					"tmp"
+				],
+				"needs": [
+					"tmp"
+				],
+				"internal_conflicts": [
+					"tmp"
+				],
+				"external_conflicts": [
+					"tmp"
+				],
+				"strength": [
+					"tmp"
+				],
+				"weakness": [],
+				"motivation": [
+					"Why do they do what they do? What drives them?"
+				],
+				"habits": []
+			},
+			"arcs": [],
+			"stats": {
+				"hp": 100,
+				"stamina": 100,
+				"stress": 20,
+				"hungry": 20
+			},
+			"effects": [],
+			"att": {
+				"perception": {
+					"sum": 10,
+					"sight": 2,
+					"hearing": 2,
+					"smell": 2,
+					"taste": 2,
+					"touch": 2
+				},
+				"iq": {
+					"sum": 10,
+					"science": 2,
+					"military": 2,
+					"language": 2,
+					"society": 2,
+					"art": 2
+				},
+				"bmi": {
+					"sum": 10,
+					"strength": 2,
+					"agility": 2,
+					"vestibular": 2,
+					"dexterity": 2,
+					"vitality": 2
+				},
+				"eq": {
+					"sum": 10,
+					"friendly": 2,
+					"empathetic": 2,
+					"sincere": 2,
+					"humble": 2,
+					"humorous": 2
+				},
+				"wpw": {
+					"sum": 10,
+					"ambitious": 2,
+					"honorable": 2,
+					"persistent": 2,
+					"courageous": 2,
+					"loyal": 2
+				}
+			},
+			"player_id_att": {
+
+			},
+			"relationships": {
+				"character_id": 50
+			}
+		},
 	},
 	"players": {
 		"player_id": {
