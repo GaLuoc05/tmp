@@ -1,0 +1,24 @@
+"""
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+You can return the answer in any order.
+"""
+
+def twoSumOfList(the_list, target):
+    # Khởi tạo map để lưu trữ hiệu của target với các phần tử của list
+    my_map = {}
+    # duyệt list
+    for i, num in enumerate(the_list):
+        # khởi tạo x = target - list[i]
+        x = target - the_list[i]
+        # tìm x trong list, nếu tìm thấy: trả về idx của x và i
+        if x in my_map:
+            return my_map[x], i, x, num
+        my_map[num] = i
+    return None
+
+l = [i*2 for i in range(100)]
+print(twoSumOfList(l, 194))
+
