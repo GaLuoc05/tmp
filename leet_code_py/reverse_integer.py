@@ -1,4 +1,4 @@
-def reverse_integer(x:int):
+def reverse_integer(x:int)->int:
     result = 0
     sign = 1 if x > 0 else -1
     x *= sign
