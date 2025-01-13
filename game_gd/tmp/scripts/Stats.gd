@@ -3,7 +3,10 @@ class_name Stats
 """ STATS """
 
 # CONST
-const name:String = "stats"
+const STATS_STR:String = "stats"
+const NAME:Dictionary = {
+	Name.HP:"hp", Name.STAMINA:"stamina", Name.STRESS:"stress", Name.HUNGRY:"hungry"
+}
 
 # ENUM
 enum Name {HP, STAMINA, STRESS, HUNGRY}
@@ -20,18 +23,18 @@ func _init(hp:float, stamina:float, stress:float, hungry:float):
 	self.stress = stress
 	self.hungry = hungry
 
-func copy_dict(stats:Dictionary):
+func from_dict(stats:Dictionary):
 	""" Transfer data from a dictionary to this Stats """
-	self.hp = stats[Name.find_key(Name.HP).to_lower()]
-	self.stamina = stats[Name.find_key(Name.STAMINA).to_lower()]
-	self.stress = stats[Name.find_key(Name.STRESS).to_lower()]
-	self.hungry = stats[Name.find_key(Name.HUNGRY).to_lower()]
+	self.hp = stats[NAME[Name.HP]]
+	self.stamina = stats[NAME[Name.STAMINA]]
+	self.stress = stats[NAME[Name.STRESS]]
+	self.hungry = stats[NAME[Name.HUNGRY]]
 
 func to_dict()->Dictionary:
 	""" Return a dictionary version of stats, to work with Nathan's Dialogue addon. """
 	var stats:Dictionary
-	stats[Name.find_key(Name.HP).to_lower()] = hp
-	stats[Name.find_key(Name.STAMINA).to_lower()] = stamina
-	stats[Name.find_key(Name.STRESS).to_lower()] = stress
-	stats[Name.find_key(Name.HUNGRY).to_lower()] = hungry
+	stats[NAME[Name.HP]] = hp
+	stats[NAME[Name.STAMINA]] = stamina
+	stats[NAME[Name.STRESS]] = stress
+	stats[NAME[Name.HUNGRY]] = hungry
 	return stats

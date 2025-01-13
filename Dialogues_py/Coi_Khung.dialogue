@@ -9,7 +9,7 @@ if talker.att["perception"]["hearing"] >= 2:
 	{{talker.name[0]}}: Hắn khua tay - "Biết vậy là được!" => Talk_1
 	- {{player.name}}: "Màu đỏ?" [if talker.att["iq"]["sum"] > 6]
 	{{talker.name[0]}}: Gật đầu. - "ĐỎ thẫm! Nhìn sợ bỏ xừ..." => Talk_1
-	- {{player.name}}: "Đỏ! Máu? Đỏ?" [if talker.att["iq"]["sum"] < 3]
+	- {{player.name}}: "Đỏ! Máu? Đỏ?" [if talker.att["iq"]["sum"] < 3]s
 	{{talker.name[0]}} nhìn {{player.name}} chăm chú, như nhìn một hình bóng xưa. 
 	{{talker.name[0]}}: Cười toáng lên. - "Nhóc cũng thấy à? Đừng dại mà lên đó!"
 	- {{player.name}}: "Đỏ kệ nó! Tránh ra mau." [if talker.att["iq"]["sum"] > 3]

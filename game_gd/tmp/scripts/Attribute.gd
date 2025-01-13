@@ -4,6 +4,40 @@ class_name Attribute
 
 # CONST
 const SUM:String = "sum"
+const TYPE:Dictionary = {
+	Type.PERPECPTION:"perpecption", Type.IQ:"iq", Type.BMI:"bmi", Type.EQ:"eq", Type.WPW:"wpw"
+}
+const NAME:Dictionary = {
+	Name.SIGHT:"sight", 
+	Name.HEARING:"hearing", 
+	Name.SMELL:"smell", 
+	Name.TASTE:"taste", 
+	Name.TOUCH:"touch",
+	
+	Name.SCIENCE:"science",
+	Name.MILITARY:"military",
+	Name.LANGUAGE:"language",
+	Name.SOCIETY:"society",
+	Name.ART:"art",
+	
+	Name.STRENGTH:"strength",
+	Name.AGILITY:"agility",
+	Name.VESTIBULAR:"vestibular",
+	Name.DEXTERITY:"dexterity",
+	Name.VITALITY:"vitality",
+
+	Name.FRIENDLY:"friendly",
+	Name.EMPATHETIC:"empathetic",
+	Name.SINCERE:"sincere",
+	Name.HUMBLE:"humble",
+	Name.HUMOROUS:"humorous",
+	
+	Name.AMBITOUS:"ambitous",
+	Name.HONORABLE:"honorable",
+	Name.PERSISTENT:"persistent",
+	Name.COURAGEOUS:"courageous",
+	Name.LOYAL:"loyal"
+}
 
 # ENUM
 enum Type {
@@ -45,17 +79,17 @@ func _init(att:Dictionary):
 
 func get_attribute(type:Type, name:Name)->float:
 	""" Transform from enum to String, then return the attribute value. """
-	var attribute_type:String = Type.find_key(type).to_lower()
-	var attribute_name:String = Name.find_key(name).to_lower()
-	return att[attribute_type][attribute_name]
+	return att[TYPE.type][NAME.name]
 	
 func get_sum(type:Type)->float:
 	""" Transform from enum to String, then return the sum of attribute type. """
-	var attribute_type:String = Type.find_key(type).to_lower()
-	return att[attribute_type][SUM]
+	return att[TYPE.type][SUM]
 
 func set_attribute(type:Type, name:Name, value:float):
 	""" Transform from enum to String, then set the attribute value. """
-	var attribute_type:String = Type.find_key(type).to_lower()
-	var attribute_name:String = Name.find_key(name).to_lower()
-	att[attribute_type][attribute_name] = value
+	# From Attribute Name and Type (Enum), transform them to String
+	# Set Attribute value to new value given
+	var old_value:float = att[TYPE.type][NAME.name]
+	att[TYPE.type][NAME.name] = value
+	# Recalculate the Sum of Attribute Type
+	att[TYPE.type][SUM] += (value - old_value)
