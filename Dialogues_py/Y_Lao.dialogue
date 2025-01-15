@@ -1,7 +1,7 @@
 ~ Talk_1
 {{talker.name}}: Lão già đang bận bịu trong góc phòng.
 if player.att["perception"]["sight"] > 4:
-	set player.appearance[0] = true
+	set talker.appearance[0] = true
 	{{talker.name}}: Ông nom gầy gò nhưng từng hành động vẫn toát lên sức khỏe. 
 {{talker.name}}: ...
 if player.att["perception"]["sight"] > 2:
