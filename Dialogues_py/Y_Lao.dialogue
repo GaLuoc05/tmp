@@ -1,9 +1,9 @@
 ~ Talk_1
-{{talker.name[0]}}: Lão già đang bận bịu trong góc phòng.
+{{talker.name}}: Lão già đang bận bịu trong góc phòng.
 if player.att["perception"]["sight"] > 4:
 	set player.appearance[0] = true
-	{{talker.name[0]}}: Ông nom gầy gò nhưng từng hành động vẫn toát lên sức khỏe. 
-{{talker.name[0]}}: ...
+	{{talker.name}}: Ông nom gầy gò nhưng từng hành động vẫn toát lên sức khỏe. 
+{{talker.name}}: ...
 if player.att["perception"]["sight"] > 2:
 	Ông lão đang nấu một món[if player.att["iq"]["science"] > 2] canh thịt với rau, bổ thân[else] canh gì đó[/if].
 if player.["perception"]["smell"] > 2:
@@ -14,4 +14,4 @@ if player.["perception"]["smell"] > 2:
 	if player.att_max == "wpw": Bạn thèm! Bạn muốn ăn đống thức ăn đó, ăn tới hết thì thôi.
 	if player.att_max == "iq": Dù đói hay không, bạn sẽ cảm thấy tốt hơn nhiều với đống đồ ăn đó trong miệng.
 	if player.att_max == "bmi": Phần ăn đủ sức cho bạn ăn tới nổ cái bụng!
-{{talker.name[0]}}:[if player.att["perception"]["hearing"] > 2] Giọng lão khàn mà ồm, chậm rãi.[/if] "Ngươi từ đâu tới?"
+{{talker.name}}:[if player.att["perception"]["hearing"] > 2] Giọng lão khàn mà ồm, chậm rãi.[/if] "Ngươi từ đâu tới?"
