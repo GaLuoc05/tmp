@@ -5,7 +5,7 @@
 Một tên còi cọc nằm giữa đường như cây sậy cản bất cứ ai muốn qua. Hắn cứ ngồi đó không chịu di chuyển tí nào.
 if talker.att["perception"]["hearing"] >= 2:
 	{{talker.name}}: "Nhóc không nên đi lên đó đâu! Trên đó đỏ lắm!"
-	- {{player.name}}: "Tại sao?" [if 9 > talker.att["iq"]["sum"] and talker.att["iq"]["sum"] > 3]
+	- {{player.name}}: "Tại sao?" [if 90 > talker.att["iq"]["sum"] and talker.att["iq"]["sum"] > 30]
 	{{talker.name}}: Hắn khua tay - "Biết vậy là được!" => Talk_1
 	- {{player.name}}: "Màu đỏ?" [if talker.att["iq"]["sum"] > 6]
 	{{talker.name}}: Gật đầu. - "ĐỎ thẫm! Nhìn sợ bỏ xừ..." => Talk_1
