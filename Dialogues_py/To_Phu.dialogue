@@ -1,6 +1,5 @@
-~ Talk_2
-Phú ngồi trên giường, đưa đầu lên xuống, mồm lẩm bẩm gì đó.
-Tô Phú: "Mày đi đâu về muộn vậy?"
-- Bạn: "Lại tập nhịp trống à?"
-	Tô Phú: "Đánh kiếm tao đã không lại thằng Kim thì chí ít cũng phải đánh trống hơn nó."
-	
+~ Talk_1
+{{talker.name}}: Một cậu thanh niên đang giương chiếc cung ra bắn vào bia tập.[if player.att["perception"]["sight"] > 4] Từng phần cơ bắp trên tay cậu ta lộ ra khi kéo dây.[/if][if player.att["iq"]["military"] > 5] Dáng đứng của cậu ta rất chuẩn chỉ. {{player.name}} biết đây là một người bắn cung tốt.
+- {{player.name}}: Ai dạy mày bắn cung đấy? [if player.att["iq"]["sum"] > 30]
+- {{player.name}}: Mày tên gì?
+- {{player.name}}: Quả là một tay cung cừ khôi.
