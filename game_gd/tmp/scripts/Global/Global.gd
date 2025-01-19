@@ -2,17 +2,16 @@ extends Node
 
 # ENUM
 enum Locale {VN, EN}
+enum CoopType {SINGLE, TWOPLAYER}
 
 # CONST
 const TRANSLATOR_LOCALES:Dictionary = {
-	Locale.VN: "vn",
+	Locale.VN: "vi",
 	Locale.EN: "en"
 }
 
 # SIGNAL
-signal clock_tick
+signal clock_tick(seconds_played:int)
 
 # VAR
-var current_scene:Scene # scene hiện tại đang play (là Node gốc của game khi chạy).
-#var game_clock:GameClock # đồng hồ đếm thời gian cho game (thời gian của game ko phải tg thực).
 var clock:Clock # đồng hồ đếm thời gian chơi.

@@ -1,10 +1,15 @@
-extends Node2D
-
 class_name Scene
 
 """
 Node gốc của 'world game' mỗi khi game chạy (bên cạnh UI).
 """
+
+# ENUM
+enum Name {} # Tên của các game's scene (ko phải ui)
+
+# CONST
+const SCENES:Dictionary = {# Dictionary[enum Scene.Name:PackedScene] các scene tồn tại trong game.
+}
 
 # VAR
 var player:Player
