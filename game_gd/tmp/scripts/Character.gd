@@ -7,7 +7,7 @@ class_name Character
 # VAR
 var id:String = "Character ID"
 var _name:String = "Character Name"
-var effects:Array[Effect] # list of effects this character currently has.
+var effect:Effect # list of effects this character currently has.
 var attribute:Attribute
 var stats:Stats
 var movement:CharacterMovement
